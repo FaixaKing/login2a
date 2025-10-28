@@ -1,0 +1,128 @@
+.quadrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+  background: linear-gradient(90deg,rgb(224, 224, 224, 1) 0%, rgba(144, 202, 249, 1) 50%);
+  font-family: Arial, sans-serif;
+}
+
+.cadastro {
+  background-color: #e0e0e0;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.cadastro h1 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.cadastro p {
+  text-align: left;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #000;
+}
+
+.cadastro input[type="nome"]{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cadastro input[type="email"]{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cadastro input[type="cpf"]{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cadastro input[type="usuario"]{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cadastro input[type="senha"]{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cadastro input[type="password"]{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+
+.cadastro input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cadastro div {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.cadastro a {
+  color: #007bff;
+  font-size: 14px;
+  text-align: left;
+}
+
+.cadastro button {
+  width: 100%;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.logo1{
+  width: 40px;   
+  height: 40px;  
+  margin: 5px;
+} 
+.logo2{
+  width: 40px;   
+  height: 40px;  
+  margin: 5px;
+} 
+.logo3{
+  width: 40px;   
+  height: 40px;  
+  margin: 5px;
+} 

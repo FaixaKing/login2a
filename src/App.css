@@ -1,0 +1,105 @@
+.quadrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(224, 224, 224) 0%, rgba(144, 202, 249, 1) 50%);
+  font-family: Arial, sans-serif;
+}
+
+/* Card de login */
+.login {
+  color: #000;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #808082;
+  width: 300px;
+  text-align: center;
+}
+
+/* Título */
+.login h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Labels (p) */
+.login p {
+  text-align: left;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+/* Inputs */
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 4px rgba(74, 144, 226, 0.5);
+}
+
+/* Checkbox */
+.login div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Links */
+.login a {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+/* Botão */
+.login button {
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login button:hover {
+  background-color: #4a90e2;
+}
+.logo1{
+  width: 40px;   
+  height: 40px;  
+  margin: 5px;
+} 
+.logo2{
+  width: 40px;   
+  height: 40px;  
+  margin: 5px;
+} 
+.logo3{
+  width: 40px;   
+  height: 40px;  
+  margin: 5px;
+} 
